@@ -9,13 +9,22 @@
             <ContinuousRotationServo name="Car Wash" port="1" />
             <!--RevColorSensorV3 name="Color Senser" port="0" bus="1" /-->
             <!--HuskyLens name="Husky Lens" port="1" bus="1" /-->
+
+            <!--LAST YEARS ROBOT-->
+            <goBILDA5202SeriesMotor name="Back Left" port="1" />
+            <goBILDA5202SeriesMotor name="Front Left" port="0" />
         </LynxModule>
         <LynxModule name="Control Hub" port="173">
-            <goBILDA5202SeriesMotor name="Front Left" port="0" />
+            <!--<goBILDA5202SeriesMotor name="Front Left" port="0" />
             <goBILDA5202SeriesMotor name="Front Right" port="1" />
             <goBILDA5202SeriesMotor name="Back Right" port="2" />
-            <goBILDA5202SeriesMotor name="Back Left" port="3" />
-            <!--SparkFunOTOS name="OTOS" port="0" bus="0" /-->
+            <goBILDA5202SeriesMotor name="Back Left" port="3" />-->
+
+            <!--LAST YEARS ROBOT-->
+            <goBILDA5202SeriesMotor name="Front Right" port="0" />
+            <goBILDA5202SeriesMotor name="Back Right" port="1" />
+
+            <SparkFunOTOS name="otos" port="1" bus="1" />
         </LynxModule>
     </LynxUsbDevice>
 </Robot>
